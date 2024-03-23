@@ -10,6 +10,8 @@ namespace UnitTestTOPO3
         [TestMethod]
         public void ConvertorClassCreationTest()
         {
+            TConvertor convertor = new TConvertor();
+            Assert.IsNotNull(convertor);
         }
 
 
