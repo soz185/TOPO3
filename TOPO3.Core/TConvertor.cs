@@ -15,4 +15,9 @@ namespace TOPO3.Core
         Millimetre
     }
 
+    public enum LengthRussian
+    {
+        Arshin
+    }
+
 }
