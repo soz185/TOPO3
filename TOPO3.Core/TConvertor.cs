@@ -6,4 +6,10 @@ namespace TOPO3.Core
     {
         public TConvertor() { }
     }
+
+    public enum LengthSI 
+    { 
+        Metre 
+    }
+
 }
