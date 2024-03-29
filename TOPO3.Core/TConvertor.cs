@@ -9,7 +9,8 @@ namespace TOPO3.Core
 
     public enum LengthSI 
     { 
-        Metre 
+        Metre,
+        Centimetre
     }
 
 }
