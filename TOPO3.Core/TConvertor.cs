@@ -9,6 +9,7 @@ namespace TOPO3.Core
 
     public enum LengthSI 
     { 
+        Kilometre,
         Metre,
         Centimetre,
         Millimetre
