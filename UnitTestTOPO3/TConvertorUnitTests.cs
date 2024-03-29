@@ -14,6 +14,10 @@ namespace UnitTestTOPO3
             Assert.IsNotNull(convertor);
         }
 
-
+        [TestMethod]
+        public void LengthSIEnumMetreTest()
+        {
+            Assert.IsNotNull(LengthSI.Metre);
+        }
     }
 }
