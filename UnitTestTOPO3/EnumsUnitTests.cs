@@ -31,5 +31,11 @@ namespace UnitTestTOPO3
             Assert.IsNotNull(LengthSI.Millimetre);
         }
 
+        [TestMethod]
+        public void LengthRussianEnumArshinTest()
+        {
+            Assert.IsNotNull(LengthRussian.Arshin);
+        }
+
     }
 }
