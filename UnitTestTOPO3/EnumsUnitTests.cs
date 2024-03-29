@@ -8,6 +8,12 @@ namespace UnitTestTOPO3
     public class EnumsUnitTests
     {
         [TestMethod]
+        public void LengthSIEnumKilometreTest()
+        {
+            Assert.IsNotNull(LengthSI.Kilometre);
+        }
+
+        [TestMethod]
         public void LengthSIEnumMetreTest()
         {
             Assert.IsNotNull(LengthSI.Metre);
