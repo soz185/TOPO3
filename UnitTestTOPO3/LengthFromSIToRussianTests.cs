@@ -23,5 +23,14 @@ namespace UnitTestTOPO3
             Assert.AreEqual(expected, 1/2.1336, 0.00001);
         }
 
+        [TestMethod]
+        public void From1MetreToVerstaTest()
+        {
+            TConvertor convertor = new TConvertor();
+            double expected = convertor.LengthFromSIToRussian(1, LengthSI.Metre, LengthRussian.Versta);
+            Assert.AreEqual(expected, 1 / 1066.8, 0.00001);
+        }
+
+
     }
 }
