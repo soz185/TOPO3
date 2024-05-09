@@ -23,5 +23,12 @@ namespace UnitTestTOPO3
             Assert.AreEqual(expected, 2.1336, 0.00001);
         }
 
+        [TestMethod]
+        public void From2SazhenToCentimetreTest()
+        {
+            TConvertor convertor = new TConvertor();
+            double expected = convertor.LengthFromRussianToSI(1, LengthRussian.Sazhen, LengthSI.Centimetre);
+            Assert.AreEqual(expected, 426.72, 0.00001);
+        }
     }
 }
