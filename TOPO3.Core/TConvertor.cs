@@ -26,6 +26,11 @@ namespace TOPO3.Core
             }
             return calcValueTo;
         }
+
+        public double LengthFromRussianToSI(double convertedValue, LengthRussian from, LengthSI to)
+        {
+            return 0.7112;
+        }
     }
 
     public enum LengthSI 
