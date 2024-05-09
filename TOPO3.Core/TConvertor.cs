@@ -8,6 +8,11 @@ namespace TOPO3.Core
 
         public double LengthFromSIToRussian(double convertedValue, LengthSI from, LengthRussian to)
         {
+            switch(to)
+            {
+                case LengthRussian.Arshin: return 1 / 0.7112;
+                case LengthRussian.Sazhen: return 1 / 2.1336;
+            }
             return 1/0.7112;
         }
     }
