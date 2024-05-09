@@ -17,6 +17,7 @@ namespace TOPO3.Core
 
     public enum LengthRussian
     {
+        Versta,
         Arshin
     }
 
