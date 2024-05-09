@@ -37,5 +37,11 @@ namespace UnitTestTOPO3
             Assert.IsNotNull(LengthRussian.Arshin);
         }
 
+        [TestMethod]
+        public void LengthRussianEnumVerstaTest()
+        {
+            Assert.IsNotNull(LengthRussian.Versta);
+        }
+
     }
 }
