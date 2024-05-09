@@ -29,7 +29,15 @@ namespace TOPO3.Core
 
         public double LengthFromRussianToSI(double convertedValue, LengthRussian from, LengthSI to)
         {
-            return 0.7112;
+            double calcValue = 0;
+            switch (from)
+            {
+                case LengthRussian.Arshin: calcValue = convertedValue * 0.7112; break;
+                case LengthRussian.Sazhen: calcValue = convertedValue * 2.1336; break;
+                case LengthRussian.Versta: calcValue = convertedValue * 1066.8; break;
+                case LengthRussian.Pyad: calcValue = convertedValue * 0.1778; break;
+            }
+            return calcValue;
         }
     }
 

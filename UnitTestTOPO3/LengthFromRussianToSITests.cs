@@ -19,7 +19,7 @@ namespace UnitTestTOPO3
         public void From1SazhenToMetreTest()
         {
             TConvertor convertor = new TConvertor();
-            double expected = convertor.LengthFromRussianToSI(1, LengthRussian.Arshin, LengthSI.Metre);
+            double expected = convertor.LengthFromRussianToSI(1, LengthRussian.Sazhen, LengthSI.Metre);
             Assert.AreEqual(expected, 2.1336, 0.00001);
         }
 
