@@ -19,7 +19,8 @@ namespace TOPO3.Core
     {
         Versta,
         Sazhen,
-        Arshin
+        Arshin,
+        Pyad
     }
 
 }
