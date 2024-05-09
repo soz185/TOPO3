@@ -14,6 +14,7 @@ namespace TOPO3.Core
                 case LengthRussian.Arshin: calcValue = 1 / 0.7112; break;
                 case LengthRussian.Sazhen: calcValue = 1 / 2.1336; break;
                 case LengthRussian.Versta: calcValue = 1 / 1066.8; break;
+                case LengthRussian.Pyad: calcValue = 1 / 0.1778; break;
             }
             return calcValue;
         }
