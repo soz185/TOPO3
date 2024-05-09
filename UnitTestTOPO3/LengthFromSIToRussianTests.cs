@@ -10,8 +10,9 @@ namespace UnitTestTOPO3
         [TestMethod]
         public void From1MetreToArshinTest()
         {
-            double expected = LengthFromSIToRussian(1, LengthSI.Metre, LengthRussian.Arshin);
-            Assert.AreEqual(expected, 0.7112);
+            TConvertor convertor = new TConvertor();
+            double expected = convertor.LengthFromSIToRussian(1, LengthSI.Metre, LengthRussian.Arshin);
+            Assert.AreEqual(expected, 0.7112, 0.00001);
         }
     }
 }
