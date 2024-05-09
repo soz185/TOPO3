@@ -8,7 +8,7 @@ namespace TOPO3.Core
 
         public double LengthFromSIToRussian(double convertedValue, LengthSI from, LengthRussian to)
         {
-            return 0.7112;
+            return 1/0.7112;
         }
     }
 
