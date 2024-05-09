@@ -38,5 +38,14 @@ namespace UnitTestTOPO3
             double expected = convertor.LengthFromSIToRussian(1, LengthSI.Metre, LengthRussian.Pyad);
             Assert.AreEqual(expected, 1 / 0.1778, 0.00001);
         }
+
+        [TestMethod]
+        public void From3CentimetreToArshinTest()
+        {
+            TConvertor convertor = new TConvertor();
+            double expected = convertor.LengthFromSIToRussian(3, LengthSI.Centimetre, LengthRussian.Versta);
+            Assert.AreEqual(expected, 3 / 71.12, 0.00001);
+        }
+
     }
 }
