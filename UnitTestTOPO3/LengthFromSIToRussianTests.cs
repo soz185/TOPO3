@@ -31,6 +31,12 @@ namespace UnitTestTOPO3
             Assert.AreEqual(expected, 1 / 1066.8, 0.00001);
         }
 
-
+        [TestMethod]
+        public void From1MetreToPyadTest()
+        {
+            TConvertor convertor = new TConvertor();
+            double expected = convertor.LengthFromSIToRussian(1, LengthSI.Metre, LengthRussian.Pyad);
+            Assert.AreEqual(expected, 1 / 0.1778, 0.00001);
+        }
     }
 }
