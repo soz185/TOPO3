@@ -37,6 +37,13 @@ namespace TOPO3.Core
                 case LengthRussian.Versta: calcValue = convertedValue * 1066.8; break;
                 case LengthRussian.Pyad: calcValue = convertedValue * 0.1778; break;
             }
+            switch (to)
+            {
+                case LengthSI.Centimetre: calcValue *= 100; break;
+                case LengthSI.Kilometre: calcValue *= 0.001; break;
+                case LengthSI.Millimetre: calcValue *= 1000; break;
+                default: break;
+            }
             return calcValue;
         }
     }
